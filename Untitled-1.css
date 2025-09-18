@@ -1,0 +1,63 @@
+/* General body styling */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Card container */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+/* Card image */
+.card img {
+  width: 100%;
+  display: block;
+}
+
+/* Title below the name */
+.title {
+  color: grey;
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+/* Contact button styling */
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+/* Social icon links */
+.social-links a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  margin: 0 8px;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  opacity: 0.7;
+}
